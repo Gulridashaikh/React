@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* background-color: white; */
+    
+}
+body{
+    background-image:linear-gradient(to right , white 0%, white 30%,#dcecf7 30%, #dcecf7 100%)
+}
+
+@media screen and (max-width: 768px) {
+form {
+    width: 100vw;
+}
+.right{
+    display: flex;
+  /* flex-direction: column; */
+    justify-items: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    width: 100vh;
+    /* display: flex; */
+    }
+}
